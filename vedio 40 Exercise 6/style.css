@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Spectral:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+/* this is the styling of the nav */
+div img {
+    height: 60px;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-left: 60px;
+    margin-right: 52px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav ul li {
+    padding: 12px;
+    padding-right: 22px;
+    font-size: large;
+}
+
+.nav ul li img{
+    width: 50px;
+}
+
+.nav img {
+    padding-bottom: 12px;
+}
+
+.nav div {
+    flex-grow: 2;
+    align-self: center;
+
+}
+
+.nav p {
+    font-size: 12px;
+    font-family: 'Spectral', serif;
+}
+
+/* this is the end of the styling of the nav bar */
+
+/* this is the starting of the styling of the main */
+main{
+    text-align: center;
+    margin: 40px;
+}
+
+ main p:first-child{
+    font-size: xxx-large;
+    padding: 12px;
+}
+
+main h1{
+    font-weight: normal;
+    padding: 12px;
+}
+main div{
+    display: flex;
+    justify-content:center ;
+}
+main .subtitle{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.main-button{
+    background-color: rgb(41, 150, 228);
+    padding: 20px;
+    font-size:large;
+    width: 20vw;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* this is the ending of the main styling */
+
+:root{
+--backcolorofsmallbox :rgba(213, 210, 210, 0.471);
+--backcolorofBlueButton:rgba(0, 195, 255, 0.762);
+--backcolorofOrangeButton: rgba(255, 162, 0, 0.762);
+--borderrad:10px;
+}
+
+/* this is the code of a small box */
+section{
+    margin: 40px;
+    width: 95vw;
+}
+.section{
+    display: flex;
+    padding-left: 180px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.section p{
+    align-self: center;
+    padding: 5px;
+}
+
+.small-box1{
+    margin-top: 22px;
+    padding-top: 24px;
+    width: 25vw;
+    height: 25vh;
+    border-radius: 5px;
+    background-color: var(--backcolorofsmallbox);
+}
+
+.small-box1 p{
+    font-size: large;
+    margin: 20px 158px 45px 131px;
+    background-color: var(--backcolorofsmallbox);
+
+}
+.bit32{
+    background-color: var(--backcolorofBlueButton);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.bit64{
+    background-color: var(--backcolorofOrangeButton);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* this is the end of the samll box styling */
+.section2{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/*  this is the starting of the footer coding */
+.footer {
+    display: flex;
+    padding: 0px 12px 12px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-left: 60px;
+    margin-right: 52px;
+}
+.copy{
+    justify-self:flex-end;
+    padding-left: 100px;
+}
+
+/* this is the end of the styling of footer */
