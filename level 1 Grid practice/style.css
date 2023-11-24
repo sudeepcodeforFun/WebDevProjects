@@ -1,0 +1,42 @@
+/* this is the styling of the section class */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.small-box1{
+    width: 22vw;
+    height: 11vw;
+    background-color: rgb(225, 220, 211);
+    text-align: center;
+    display: grid;
+}
+.heading-smallBox{
+    padding: 20px;
+}
+
+span a{
+    color: black;
+    text-decoration: none;
+}
+.bit32{
+    background-color: rgb(53, 162, 230);
+    padding: 10px;
+    border-radius: 5px;
+}
+.bit64{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(230, 153, 53);
+}
+
+/* this is the end of the styling of small box */
+
+.section{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 160px 160px 160px 160px;
+    justify-content: center;
+    align-items:center;
+}
